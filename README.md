@@ -65,6 +65,23 @@ npm run build
 npm start
 ```
 
+### Deployment
+
+The project is ready to deploy on various platforms:
+
+#### Vercel (Recommended)
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com)
+3. Vercel will automatically detect Next.js and deploy
+
+#### Other Platforms
+- **Netlify**: Connect your GitHub repo, build command: `npm run build`, publish directory: `.next`
+- **Railway**: Connect your GitHub repo, it will auto-detect Next.js
+- **Docker**: The project can be containerized using Next.js standalone output
+
+#### Environment Variables
+No environment variables are required for basic functionality. All data is stored in the browser's localStorage.
+
 ## Usage
 
 1. **Select a Tool** - Click on any tool in the left toolbar
